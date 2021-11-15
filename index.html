@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Centrum CNC</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles/all.min.css">
+    <link rel="stylesheet" href="./styles/index.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+
+    <script src="./scripts/dropDown-menu.js" defer></script>
+    <script src="./scripts/basket.js" defer></script>
+</head>
+
+<body>
+    <div id="main-container">
+        <header>
+            <div id="topfooter">
+                <p><img src="./icons/phone.png" alt=""> Skontaktuj się z nami: <span>58 380 12 28</span></p>
+                <ul>
+                    <li>Kontakt z nami</li>
+                    <li>Zaloguj się</li>
+                </ul>
+            </div>
+            <section id="headerContent">
+                <div id="logo"><img src="./img/centrum-cnc-logo-1488404181.jpg" alt=""></div>
+                <div id="find">
+                    <input type="text" placeholder="Szukaj">
+                    <button></button>
+                </div>
+                <div id="basket">
+                    <div class="basket-icon">
+                        <i class="fas fa-shopping-cart"></i>
+                    </div>
+                    <p>Koszyk </p>
+                    <div id="koszyk">(pusty)</div>
+                </div>
+                <div class="form-popup" id="myForm">
+                    <form action="" class="form-container">
+                        <h1>Koszyk</h1>
+                        <div class="basketItems">
+
+                        </div>
+                        <button type="button" class="btn cancel">Zamknij</button>
+                    </form>
+                </div>
+            </section>
+            <nav>
+                <ul>
+                    <li><a href="#">strona główna</a></li>
+                    <li><a href="#">aktualności</a></li>
+                    <li><a href="#">o nas</a></li>
+                    <li><a href="#">cennik dostaw</a></li>
+                    <li><a href="#">formy płatności</a></li>
+                    <li><a href="#">kontakt</a></li>
+                    <li><a href="#">regulamin sklepu</a></li>
+                    <li><a href="#">polityka prywatnosci</a></li>
+                </ul>
+            </nav>
+        </header>
+        <div class="content-wrapper">
+            <aside class="aside-with-items">
+                <h2 class="aside-title">Kategorie</h2>
+                <div class="content__item" id="prowadniceLinioweHiwin" data-state="closed">
+                    <h4>Prowadnice liniowe HIWIN</h4>
+                    <i class="fas fa-plus"></i>
+                </div>
+                <div class="content__item" id="prowadniceLiniowePMI" data-state="closed">
+                    <h4>Prowadnice liniowe PMI</h4>
+                    <i class="fas fa-plus"></i>
+                </div>
+                <div class="content__item" id="" data-state="closed">
+                    <h4>Wałki liniowe</h4>
+                    <i class="fas fa-plus"></i>
+                </div>
+                <div class="content__item" id="" data-state="closed">
+                    <h4>Wałki liniowe na podporze</h4>
+                    <i class="fas fa-plus"></i>
+                </div>
+                <div class="content__item" id="" data-state="closed">
+                    <h4>Wsporniki końcowe wałka</h4>
+                    <i class="fas fa-plus"></i>
+                </div>
+                <div class="content__item" id="" data-state="closed">
+                    <h4>Łożyska liniowe</h4>
+                    <i class="fas fa-plus"></i>
+                </div>
+            </aside>
+            <div class="content">
+                <h1 class="content-title">Prowadnice liniowe HIWIN</h1>
+                <section class="group-items">
+                    <h4>Seria HG (wersja standardowa)</h4>
+                    <div class="group-items-wrapper">
+                        <img src="./img/HGH.png" alt="" width="161" height="125">
+                        <h5>Wózki HGH</h5>
+                        <input type="button" value="Dodaj do koszyka" name="Wózki HGH" id="addBasket">
+                    </div>
+                    <div class="group-items-wrapper">
+                        <img src="./img/HGW.png" alt="" width="161" height="125">
+                        <h5>Wózki HGW</h5>
+                        <input type="button" value="Dodaj do koszyka" name="Wózki HGW" id="addBasket">
+                    </div>
+                    <div class="group-items-wrapper">
+                        <img src="./img/HGR.png" alt="" width="161" height="125">
+                        <h5>Prowadnica HGR</h5>
+                        <input type="button" value="Dodaj do koszyka" name="Prowadnica HGR" id="addBasket">
+                    </div>
+                    <div class="group-items-wrapper">
+                        <img src="./img/zgarniacze_HG.png" alt="" width="161" height="125">
+                        <h5>Zgarniacze HG</h5>
+                        <input type="button" value="Dodaj do koszyka" name="Zgarniacze HG" id="addBasket">
+                    </div>
+                </section>
+
+                <section class="group-items">
+                    <h4>Seria MGN (wersja miniaturowa)</h4>
+                    <div class="group-items-wrapper">
+                        <img src="./img/MGN.png" alt="" width="161" height="125">
+                        <h5>Wózki MGN</h5>
+                        <input type="button" value="Dodaj do koszyka" name="Wózki MGN" id="addBasket">
+                    </div>
+                    <div class="group-items-wrapper">
+                        <img src="./img/MGNR.png" alt="" width="161" height="125">
+                        <h5>Prowadnica MGNR</h5>
+                        <input type="button" value="Dodaj do koszyka" name="Prowadnica MGNR" id="addBasket">
+                    </div>
+                </section>
+            </div>
+        </div>
+        <footer></footer>
+    </div>
+</body>
+
+</html>
